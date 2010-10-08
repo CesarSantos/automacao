@@ -11,7 +11,7 @@ public class InternalFrameSaida extends JInternalFrame {
 	private PanelButtons panelButtons;
 	
 	public InternalFrameSaida() {
-		super("Saída de Produto", true, true, false, true);
+		super("Saída de Produto", false, true, false, false);
 		setLayout(new BorderLayout());
 		initilize();
 		setVisible(true);
